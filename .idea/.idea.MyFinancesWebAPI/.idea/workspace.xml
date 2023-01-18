@@ -6,7 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Contexts/MyAppContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +27,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b5f6452cae323eaef6649d6e168c9085e1614bbd6c1bfa74d7e1894bbc65c6/RelationalPropertyBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/365e7bc9bffff1bafa87f3989c799d3c7a4826916528d1c169b5d6835d78978/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/af868bac6c58325ff03249614748385445d70ce62882ef3b5c86f139ad923c2/ExpressionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,14 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.21689059&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MyFinancesWebAPI">
     <configuration name="MyFinancesWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" />
@@ -73,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674047605798</updated>
-      <workItem from="1674047610724" duration="209000" />
+      <workItem from="1674047610724" duration="9081000" />
+      <workItem from="1674058201799" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="install nugets">
       <created>1674047744530</created>
@@ -82,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674047744530</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Context">
+      <created>1674047923645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674047923645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="install nugets" />
-    <option name="LAST_COMMIT_MESSAGE" value="install nugets" />
+    <MESSAGE value="Context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Context" />
   </component>
 </project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "U0qNak/B02i33sYRW7pM9rZ2DR1jb76D3a6YpbZn4T0=",
+  "Source": "MyFinancesWebAPI",
+  "BasePath": "_content/MyFinancesWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2fb3b1bc-94ee-458c-88dc-f4f94c18879d": {
+      "ProjectGuid": "2fb3b1bc-94ee-458c-88dc-f4f94c18879d",
+      "DisplayName": "MyFinancesWebAPI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
