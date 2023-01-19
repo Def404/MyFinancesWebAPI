@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace MyFinancesWebAPI.Models;
 
@@ -9,7 +8,7 @@ namespace MyFinancesWebAPI.Models;
 /// </summary>
 public partial class BankAccount
 {
-    public long? BankAccountId { get; set; }
+    public long BankAccountId { get; set; }
 
     public string Name { get; set; } = null!;
 
@@ -25,7 +24,8 @@ public partial class BankAccount
 
     public int CurrencyId { get; set; }
 
-    public virtual Bank? Bank { get; set; } = null!;
+    public virtual Bank? Bank { get; set; }
 
-    public virtual Currency? Currency { get; set; } = null!;
+    public virtual Currency? Currency { get; set; }
+    
 }

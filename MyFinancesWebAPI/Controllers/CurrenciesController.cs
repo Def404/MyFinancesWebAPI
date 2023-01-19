@@ -1,109 +1,122 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MyFinancesWebAPI.Context;
+using MyFinancesWebAPI.Contexts;
 using MyFinancesWebAPI.Models;
 
-namespace MyFinancesWebAPI.Controllers{
-	[Route("api/[controller]")]
-	[ApiController]
-	public class CurrenciesController : ControllerBase{
-		private readonly MyfinancesContext _context;
+namespace MyFinancesWebAPI.Controllers;
 
-		public CurrenciesController(MyfinancesContext context){
-			_context = context;
-		}
+[Route("api/[controller]")]
+[ApiController]
+public class CurrenciesController : ControllerBase
+{
+    private readonly MyFinancesContext _context;
 
-		// GET: api/Currencies
-		[HttpGet]
-		public async Task<ActionResult<IEnumerable<Currency>>> GetCurrencies(){
-			if (_context.Currencies == null){
-				return NotFound();
-			}
+    public CurrenciesController(MyFinancesContext context)
+    {
+        _context = context;
+    }
 
-			return await _context.Currencies.ToListAsync();
-		}
+    // GET: api/Currencies
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Currency>>> GetCurrencies()
+    {
+        if (_context.Currencies == null)
+        {
+            return NotFound();
+        }
 
-		// GET: api/Currencies/5
-		[HttpGet("{id}")]
-		public async Task<ActionResult<Currency>> GetCurrency(int id){
-			if (_context.Currencies == null){
-				return NotFound();
-			}
+        return await _context.Currencies.ToListAsync();
+    }
 
-			var currency = await _context.Currencies.FindAsync(id);
+    // GET: api/Currencies/5
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Currency>> GetCurrency(int id)
+    {
+        if (_context.Currencies == null)
+        {
+            return NotFound();
+        }
 
-			if (currency == null){
-				return NotFound();
-			}
+        var currency = await _context.Currencies.FindAsync(id);
 
-			return currency;
-		}
+        if (currency == null)
+        {
+            return NotFound();
+        }
 
-		// PUT: api/Currencies/5
-		// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-		[HttpPut("{id}")]
-		public async Task<IActionResult> PutCurrency(int id, Currency currency){
-			if (id != currency.CurrencyId){
-				return BadRequest();
-			}
+        return currency;
+    }
 
-			_context.Entry(currency).State = EntityState.Modified;
+    // PUT: api/Currencies/5
+    // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+    [HttpPut("{id}")]
+    public async Task<IActionResult> PutCurrency(int id, Currency currency)
+    {
+        if (id != currency.CurrencyId)
+        {
+            return BadRequest();
+        }
 
-			try{
-				await _context.SaveChangesAsync();
-			}
-			catch (DbUpdateConcurrencyException){
-				if (!CurrencyExists(id)){
-					return NotFound();
-				}
-				else{
-					throw;
-				}
-			}
+        _context.Entry(currency).State = EntityState.Modified;
 
-			return NoContent();
-		}
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!CurrencyExists(id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
+        }
 
-		// POST: api/Currencies
-		// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-		[HttpPost]
-		public async Task<ActionResult<Currency>> PostCurrency(Currency currency){
-			if (_context.Currencies == null){
-				return Problem("Entity set 'MyfinancesContext.Currencies'  is null.");
-			}
+        return NoContent();
+    }
 
-			_context.Currencies.Add(currency);
-			await _context.SaveChangesAsync();
+    // POST: api/Currencies
+    // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+    [HttpPost]
+    public async Task<ActionResult<Currency>> PostCurrency(Currency currency)
+    {
+        if (_context.Currencies == null)
+        {
+            return Problem("Entity set 'MyFinancesContext.Currencies'  is null.");
+        }
 
-			return CreatedAtAction("GetCurrency", new{id = currency.CurrencyId}, currency);
-		}
+        _context.Currencies.Add(currency);
+        await _context.SaveChangesAsync();
 
-		// DELETE: api/Currencies/5
-		[HttpDelete("{id}")]
-		public async Task<IActionResult> DeleteCurrency(int id){
-			if (_context.Currencies == null){
-				return NotFound();
-			}
+        return CreatedAtAction("GetCurrency", new { id = currency.CurrencyId }, currency);
+    }
 
-			var currency = await _context.Currencies.FindAsync(id);
+    // DELETE: api/Currencies/5
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteCurrency(int id)
+    {
+        if (_context.Currencies == null)
+        {
+            return NotFound();
+        }
 
-			if (currency == null){
-				return NotFound();
-			}
+        var currency = await _context.Currencies.FindAsync(id);
+        if (currency == null)
+        {
+            return NotFound();
+        }
 
-			_context.Currencies.Remove(currency);
-			await _context.SaveChangesAsync();
+        _context.Currencies.Remove(currency);
+        await _context.SaveChangesAsync();
 
-			return NoContent();
-		}
+        return NoContent();
+    }
 
-		private bool CurrencyExists(int id){
-			return (_context.Currencies?.Any(e => e.CurrencyId == id)).GetValueOrDefault();
-		}
-	}
+    private bool CurrencyExists(int id)
+    {
+        return (_context.Currencies?.Any(e => e.CurrencyId == id)).GetValueOrDefault();
+    }
 }

@@ -13,6 +13,4 @@ public partial class Bank
     public string Name { get; set; } = null!;
 
     public string Colour { get; set; } = null!;
-
-    //public virtual ICollection<BankAccount> BankAccounts { get; } = new List<BankAccount>();
 }

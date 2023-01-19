@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8TK2lzqoEF1jf8VxDz/FxjK/4cZC/Tc9DR9FEPkzuQfr4aPkbxIOAl0yNLpU64pbAE0HTdJasI5qtZQk4Tz6Ug==",
+  "dgSpecHash": "YJ8SgnbXDaqjCNb00vD2lJlg4C+vIJ3tSm9KEtdpT9FWhSf6VRuAsU0vxwpMMCc9Yrz0Z2LvA9AiQu4epJuzpA==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Def404(git)\\MyFinancesWebAPI\\MyFinancesWebAPI\\MyFinancesWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\basc1\\source\\repos\\Def404\\MyFinancesWebAPI\\MyFinancesWebAPI\\MyFinancesWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\basc1\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\basc1\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

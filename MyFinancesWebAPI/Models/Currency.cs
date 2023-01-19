@@ -15,6 +15,5 @@ public partial class Currency
     public string ShortName { get; set; } = null!;
 
     public char Sign { get; set; }
-
-   // public virtual ICollection<BankAccount> BankAccounts { get; } = new List<BankAccount>();
+    
 }
