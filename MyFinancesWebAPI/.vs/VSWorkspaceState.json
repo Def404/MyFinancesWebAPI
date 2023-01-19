@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug\\net6.0",
+    "\\Contexts",
+    "\\Controllers"
+  ],
+  "SelectedNode": "\\Controllers\\BankAccountsController.cs",
+  "PreviewInSolutionExplorer": false
+}
