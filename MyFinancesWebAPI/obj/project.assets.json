@@ -10838,11 +10838,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\basc1\\source\\repos\\Def404\\MyFinancesWebAPI\\MyFinancesWebAPI\\MyFinancesWebAPI.csproj",
+      "projectUniqueName": "D:\\Project\\Def404(git)\\MyFinancesWebAPI\\MyFinancesWebAPI\\MyFinancesWebAPI.csproj",
       "projectName": "MyFinancesWebAPI",
-      "projectPath": "C:\\Users\\basc1\\source\\repos\\Def404\\MyFinancesWebAPI\\MyFinancesWebAPI\\MyFinancesWebAPI.csproj",
+      "projectPath": "D:\\Project\\Def404(git)\\MyFinancesWebAPI\\MyFinancesWebAPI\\MyFinancesWebAPI.csproj",
       "packagesPath": "C:\\Users\\basc1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\basc1\\source\\repos\\Def404\\MyFinancesWebAPI\\MyFinancesWebAPI\\obj\\",
+      "outputPath": "D:\\Project\\Def404(git)\\MyFinancesWebAPI\\MyFinancesWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10924,7 +10924,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,50 +5,18 @@
     <projectFile profileName="MyFinancesWebAPI">MyFinancesWebAPI/MyFinancesWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b291d801-0c85-4e11-bf2a-306b9cef4f6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources/e8b59ed3-fc96-40a3-9c69-647c0fb9b5de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources/e8b59ed3-fc96-40a3-9c69-647c0fb9b5de/storage_v2/_src_/database/myfinances.hU0D7w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources/e8b59ed3-fc96-40a3-9c69-647c0fb9b5de/storage_v2/_src_/database/myfinances.hU0D7w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources/e8b59ed3-fc96-40a3-9c69-647c0fb9b5de/storage_v2/_src_/database/myfinances.hU0D7w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources/e8b59ed3-fc96-40a3-9c69-647c0fb9b5de/storage_v2/_src_/database/myfinances.hU0D7w/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/dataSources/e8b59ed3-fc96-40a3-9c69-647c0fb9b5de/storage_v2/_src_/database/myfinances.hU0D7w/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/project-colors.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/project-colors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/v17/.futdcache.v1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/v17/.futdcache.v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyFinancesWebAPI/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Context/MyfinancesContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/BankAccountsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/BankAccountsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/BanksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/BanksController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/CurrenciesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/CurrenciesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Bank.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/BankAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/BankAccount.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Currency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Currency.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Deposit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Deposit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +27,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6dd43c7bdc3d88f06457829633b93d61f4a6d2ed708ae62df66f5c3c4041b6/DateOnly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b5f6452cae323eaef6649d6e168c9085e1614bbd6c1bfa74d7e1894bbc65c6/RelationalPropertyBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/365e7bc9bffff1bafa87f3989c799d3c7a4826916528d1c169b5d6835d78978/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/af868bac6c58325ff03249614748385445d70ce62882ef3b5c86f139ad923c2/ExpressionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KY08yAmccqwoaabDRh1W50zuZH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

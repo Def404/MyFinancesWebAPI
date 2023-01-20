@@ -25,10 +25,7 @@ public partial class Deposit
 
     public int CurrencyId { get; set; }
 
-    public virtual Bank Bank { get; set; } = null!;
+    public virtual Bank? Bank { get; set; }
 
-    public virtual Currency Currency { get; set; } = null!;
-
-    public virtual User LoginNavigation { get; set; } = null!;
-
+    public virtual Currency? Currency { get; set; }
 }
