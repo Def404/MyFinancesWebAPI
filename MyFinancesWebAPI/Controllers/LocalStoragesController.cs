@@ -55,7 +55,7 @@ namespace MyFinancesWebAPI.Controllers
 		}
 		
 		[HttpGet("GetLocalStorageId")]
-		public async Task<ActionResult<long>> GetLocalStorageId(string name)
+		public async Task<ActionResult<long>> GetLocalStorageId(string name, string login)
 		{
 			if (_context.LocalStorages == null)
 			{
@@ -65,7 +65,7 @@ namespace MyFinancesWebAPI.Controllers
 			var localStorage = await _context.LocalStorages
 				.Include(ls => ls.Currency)
 				.Include(ls => ls.LocalStorageClassifier)
-				.FirstOrDefaultAsync(ls => ls.Name == name);
+				.FirstOrDefaultAsync(ls => ls.Name == name && ls.Login == login);
 
 			if (localStorage == null)
 			{

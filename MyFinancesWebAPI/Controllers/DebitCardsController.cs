@@ -17,21 +17,23 @@ namespace MyFinancesWebAPI.Controllers
         }
 
         // GET: api/DebitCards
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<DebitCard>>> GetDebitCards([FromQuery] string login)
+        [HttpGet("GetDebitCards")]
+        public async Task<ActionResult<IEnumerable<DebitCard>>> GetDebitCards(string login)
         {
             if (_context.DebitCards == null)
                 return NotFound();
             
             return await _context.DebitCards
-                .Include(d =>  d.BankAccount)
+                .Include(d => d.BankAccount)
+                .Include(d => d.BankAccount.Bank)
+                .Include(d => d.BankAccount.Currency)
                 .Include(d => d.PaymentSystem)
                 .Where(d => d.Login == login)
                 .ToListAsync();
         }
 
         // GET: api/DebitCards/5
-        [HttpGet("{id}")]
+        [HttpGet("GetDebitCard")]
         public async Task<ActionResult<DebitCard>> GetDebitCard(int id)
         {
             if (_context.DebitCards == null)
@@ -41,6 +43,8 @@ namespace MyFinancesWebAPI.Controllers
             var debitCard = await _context.DebitCards
                 .Include(d => d.PaymentSystem)
                 .Include(d =>  d.BankAccount)
+                .Include(d => d.BankAccount.Bank)
+                .Include(d => d.BankAccount.Currency)
                 .FirstOrDefaultAsync(d => d.DebitCardId == id);
 
             if (debitCard == null)

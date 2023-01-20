@@ -5,11 +5,17 @@
     <projectFile profileName="MyFinancesWebAPI">MyFinancesWebAPI/MyFinancesWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="add local storage classifier controller">
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/LocalStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/LocalStorage.cs" afterDir="false" />
+    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="add local storage controller">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/BankAccountsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/BankAccountsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/CreditCardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/CreditCardsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DebitCardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DebitCardsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DepositsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DepositsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DesiredProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DesiredProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/LoansController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/LoansController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/LocalStoragesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/LocalStoragesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" afterDir="false" />
@@ -31,6 +37,7 @@
     <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/CreditCard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/DesiredProduct.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/Loan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/LocalStorage.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -137,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674205743777</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add local storage controller">
+      <created>1674206111480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674206111481</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +177,8 @@
     <MESSAGE value="add interest rate controller" />
     <MESSAGE value="add loan controller" />
     <MESSAGE value="add local storage classifier controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add local storage classifier controller" />
+    <MESSAGE value="add local storage controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="add local storage controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

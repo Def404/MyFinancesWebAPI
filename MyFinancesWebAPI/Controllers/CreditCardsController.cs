@@ -17,8 +17,8 @@ namespace MyFinancesWebAPI.Controllers
         }
 
         // GET: api/CreditCards
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<CreditCard>>> GetCreditCards([FromQuery]string login)
+        [HttpGet("GetCreditCards")]
+        public async Task<ActionResult<IEnumerable<CreditCard>>> GetCreditCards(string login)
         {
             if (_context.CreditCards == null)
                 return NotFound();
@@ -33,8 +33,8 @@ namespace MyFinancesWebAPI.Controllers
         }
 
         // GET: api/CreditCards/5
-        [HttpGet("id")]
-        public async Task<ActionResult<CreditCard>> GetCreditCard([FromQuery]long id)
+        [HttpGet("GetCreditCard")]
+        public async Task<ActionResult<CreditCard>> GetCreditCard(long id)
         {
             if (_context.CreditCards == null)
                 return NotFound();
@@ -44,6 +44,7 @@ namespace MyFinancesWebAPI.Controllers
                 .Include(c => c.Bank)
                 .Include(c => c.Currency)
                 .Include(c => c.PaymentSystem)
+                .Include(c => c.InterestRates)
                 .FirstOrDefaultAsync(c => c.CreditCardId == id);
 
             if (creditCard == null)
@@ -53,8 +54,8 @@ namespace MyFinancesWebAPI.Controllers
         }
         
         // GET: api/CreditCards/name
-        [HttpGet("name")]
-        public async Task<ActionResult<CreditCard>> GetCreditCardId([FromQuery]string name)
+        [HttpGet("GetCreditCardId")]
+        public async Task<ActionResult<long>> GetCreditCardId(string name, string login)
         {
             if (_context.CreditCards == null)
                 return NotFound();
@@ -64,12 +65,12 @@ namespace MyFinancesWebAPI.Controllers
                 .Include(c => c.Bank)
                 .Include(c => c.Currency)
                 .Include(c => c.PaymentSystem)
-                .FirstOrDefaultAsync(c => c.Name == name);
+                .FirstOrDefaultAsync(c => c.Name == name && c.Login == login);
 
             if (creditCard == null)
                 return NotFound();
 
-            return creditCard;
+            return creditCard.CreditCardId;
         }
 
         // PUT: api/CreditCards/5

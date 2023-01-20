@@ -50,7 +50,7 @@ namespace MyFinancesWebAPI.Controllers
 
 		// GET: api/Loans/5
 		[HttpGet("GetLoanId")]
-		public async Task<ActionResult<long>> GetLoanId(string name)
+		public async Task<ActionResult<long>> GetLoanId(string name, string login)
 		{
 			if (_context.Loans == null)
 				return NotFound();
@@ -58,7 +58,7 @@ namespace MyFinancesWebAPI.Controllers
 			var loan = await _context.Loans
 				.Include(l => l.Bank)
 				.Include(l => l.Currency)
-				.FirstOrDefaultAsync(l => l.Name == name);
+				.FirstOrDefaultAsync(l => l.Name == name && l.Login == login);
 
 			if (loan == null)
 				return NotFound();

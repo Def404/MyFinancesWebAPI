@@ -17,7 +17,7 @@ namespace MyFinancesWebAPI.Controllers
 		}
 
 		// GET: api/DesiredProducts
-		[HttpGet("getAllDesiredProducts")]
+		[HttpGet("GetDesiredProducts")]
 		public async Task<ActionResult<IEnumerable<DesiredProduct>>> GetDesiredProducts(string login)
 		{
 			if (_context.DesiredProducts == null)
@@ -30,7 +30,7 @@ namespace MyFinancesWebAPI.Controllers
 		}
 
 		// GET: api/DesiredProducts/5
-		[HttpGet("getDesiredProduct")]
+		[HttpGet("GetDesiredProduct")]
 		public async Task<ActionResult<DesiredProduct>> GetDesiredProduct(long id)
 		{
 			if (_context.DesiredProducts == null)

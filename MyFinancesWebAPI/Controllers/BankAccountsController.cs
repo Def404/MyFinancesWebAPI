@@ -17,8 +17,8 @@ namespace MyFinancesWebAPI.Controllers
         }
 
         // GET: api/BankAccounts
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<BankAccount>>> GetBankAccounts([FromQuery]string login)
+        [HttpGet("GetBankAccounts")]
+        public async Task<ActionResult<IEnumerable<BankAccount>>> GetBankAccounts(string login)
         {
             if (_context.BankAccounts == null)
                 return NotFound();
@@ -34,8 +34,8 @@ namespace MyFinancesWebAPI.Controllers
         }
         
         // GET: api/BankAccounts/all
-        [HttpGet("all")]
-        public async Task<ActionResult<IEnumerable<BankAccount>>> GetBankAccountsAll([FromQuery]string login)
+        [HttpGet("GetBankAccountsAll")]
+        public async Task<ActionResult<IEnumerable<BankAccount>>> GetBankAccountsAll(string login)
         {
             if (_context.BankAccounts == null)
                 return NotFound();
@@ -49,8 +49,8 @@ namespace MyFinancesWebAPI.Controllers
         }
 
         // GET: api/BankAccounts/5
-        [HttpGet("id")]
-        public async Task<ActionResult<BankAccount>> GetBankAccount([FromQuery]long id)
+        [HttpGet("GetBankAccount")]
+        public async Task<ActionResult<BankAccount>> GetBankAccount(long id)
         {
             if (_context.BankAccounts == null)
                 return NotFound();
@@ -67,8 +67,8 @@ namespace MyFinancesWebAPI.Controllers
         }
         
         // GET: api/BankAccounts/name{}
-        [HttpGet("name")]
-        public async Task<ActionResult<long>> GetBankAccountId([FromQuery]string bankAccountName)
+        [HttpGet("GetBankAccountId")]
+        public async Task<ActionResult<long>> GetBankAccountId(string bankAccountName, string login)
         {
             if (_context.BankAccounts == null)
                 return NotFound();
@@ -77,7 +77,7 @@ namespace MyFinancesWebAPI.Controllers
             var bankAccount = await _context.BankAccounts
                 .Include(b => b.Bank)
                 .Include(b =>  b.Currency)
-                .FirstOrDefaultAsync(b => b.Name == bankAccountName);
+                .FirstOrDefaultAsync(b => b.Name == bankAccountName && b.Login == login);
 
             if (bankAccount == null)
                 return NotFound();

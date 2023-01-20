@@ -17,8 +17,8 @@ namespace MyFinancesWebAPI.Controllers
 		}
 
 		// GET: api/Deposits
-		[HttpGet("login")]
-		public async Task<ActionResult<IEnumerable<Deposit>>> GetDeposits([FromQuery]string login)
+		[HttpGet("GetDeposits")]
+		public async Task<ActionResult<IEnumerable<Deposit>>> GetDeposits(string login)
 		{
 			if (_context.Deposits == null)
 				return NotFound();
@@ -31,8 +31,8 @@ namespace MyFinancesWebAPI.Controllers
 		}
 
 		// GET: api/Deposits/5
-		[HttpGet("id")]
-		public async Task<ActionResult<Deposit>> GetDeposit([FromQuery]long id)
+		[HttpGet("GetDeposits")]
+		public async Task<ActionResult<Deposit>> GetDeposit(long id)
 		{
 			if (_context.Deposits == null)
 				return NotFound();
@@ -49,8 +49,8 @@ namespace MyFinancesWebAPI.Controllers
 		}
 		
 		// GET: api/Deposits/5
-		[HttpGet("name")]
-		public async Task<ActionResult<Deposit>> GetDepositId([FromQuery]string name)
+		[HttpGet("GetDepositId")]
+		public async Task<ActionResult<long>> GetDepositId(string name, string login)
 		{
 			if (_context.Deposits == null)
 				return NotFound();
@@ -58,12 +58,12 @@ namespace MyFinancesWebAPI.Controllers
 			var deposit = await _context.Deposits
 				.Include(d => d.Bank)
 				.Include(d => d.Currency)
-				.FirstOrDefaultAsync(d => d.Name == name);
+				.FirstOrDefaultAsync(d => d.Name == name && d.Login == login);
 
 			if (deposit == null)
 				return NotFound();
 
-			return deposit;
+			return deposit.DepositId;
 		}
 
 		// PUT: api/Deposits/5
