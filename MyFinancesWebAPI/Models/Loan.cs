@@ -30,9 +30,7 @@ public partial class Loan
 
     public int CreditPeriod { get; set; }
 
-    public virtual Bank Bank { get; set; } = null!;
+    public virtual Bank? Bank { get; set; }
 
-    public virtual Currency Currency { get; set; } = null!;
-
-    public virtual User LoginNavigation { get; set; } = null!;
+    public virtual Currency? Currency { get; set; }
 }
