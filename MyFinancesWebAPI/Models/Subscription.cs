@@ -22,7 +22,6 @@ public partial class Subscription
 
     public long BankAccountId { get; set; }
 
-    public virtual BankAccount BankAccount { get; set; } = null!;
+    public virtual BankAccount? BankAccount { get; set; }
 
-    public virtual User LoginNavigation { get; set; } = null!;
 }
