@@ -24,10 +24,7 @@ public partial class LocalStorage
 
     public int CurrencyId { get; set; }
 
-    public virtual Currency Currency { get; set; } = null!;
+    public virtual Currency? Currency { get; set; }
 
-    public virtual LocalStorageClassifier LocalStorageClassifier { get; set; } = null!;
-
-    public virtual User LoginNavigation { get; set; } = null!;
-    
+    public virtual LocalStorageClassifier? LocalStorageClassifier { get; set; }
 }
