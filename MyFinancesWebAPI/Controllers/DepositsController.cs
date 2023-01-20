@@ -31,7 +31,7 @@ namespace MyFinancesWebAPI.Controllers
 		}
 
 		// GET: api/Deposits/5
-		[HttpGet("GetDeposits")]
+		[HttpGet("GetDeposit")]
 		public async Task<ActionResult<Deposit>> GetDeposit(long id)
 		{
 			if (_context.Deposits == null)
