@@ -18,5 +18,4 @@ public partial class InterestRate
 
     public long CreditCardId { get; set; }
 
-    public virtual CreditCard CreditCard { get; set; } = null!;
 }

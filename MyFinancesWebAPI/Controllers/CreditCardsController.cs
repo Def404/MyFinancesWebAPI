@@ -27,6 +27,7 @@ namespace MyFinancesWebAPI.Controllers
                 .Include(c => c.Bank)
                 .Include(c => c.Currency)
                 .Include(c => c.PaymentSystem)
+                .Include(c => c.InterestRates)
                 .Where(c => c.Login == login)
                 .ToListAsync();
         }

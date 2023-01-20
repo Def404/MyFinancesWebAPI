@@ -35,5 +35,7 @@ public partial class CreditCard
     public virtual Currency? Currency { get; set; }
     
     public virtual PaymentSystem? PaymentSystem { get; set; }
-    
+
+    public virtual List<InterestRate>? InterestRates { get; set; }
+
 }

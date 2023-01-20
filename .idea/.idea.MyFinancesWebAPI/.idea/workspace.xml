@@ -5,9 +5,11 @@
     <projectFile profileName="MyFinancesWebAPI">MyFinancesWebAPI/MyFinancesWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="add deposit controller">
+    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="add desired product controller">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/DesiredProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/DesiredProduct.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/CreditCardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/CreditCardsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/CreditCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/CreditCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/InterestRate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/InterestRate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -29,6 +31,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b5f6452cae323eaef6649d6e168c9085e1614bbd6c1bfa74d7e1894bbc65c6/RelationalPropertyBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/365e7bc9bffff1bafa87f3989c799d3c7a4826916528d1c169b5d6835d78978/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/af868bac6c58325ff03249614748385445d70ce62882ef3b5c86f139ad923c2/ExpressionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/DesiredProduct.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -107,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674203003054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add desired product controller">
+      <created>1674204092450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674204092450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +139,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add deposit controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deposit controller" />
+    <MESSAGE value="add desired product controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="add desired product controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
