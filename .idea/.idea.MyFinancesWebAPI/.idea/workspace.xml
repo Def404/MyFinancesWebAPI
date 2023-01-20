@@ -5,18 +5,17 @@
     <projectFile profileName="MyFinancesWebAPI">MyFinancesWebAPI/MyFinancesWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="">
+    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="add deposit controller">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Deposit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Deposit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/DesiredProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/DesiredProduct.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/refint/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/refint/MyFinancesWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,21 @@
       <workItem from="1674138314258" duration="1937000" />
       <workItem from="1674147319977" duration="3255000" />
     </task>
+    <task id="LOCAL-00001" summary="add deposit controller">
+      <created>1674202980841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674202980841</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add deposit controller">
+      <created>1674203003054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674203003054</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add deposit controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="add deposit controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

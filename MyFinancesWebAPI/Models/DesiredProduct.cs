@@ -22,7 +22,5 @@ public partial class DesiredProduct
 
     public int CurrencyId { get; set; }
 
-    public virtual Currency Currency { get; set; } = null!;
-
-    public virtual User LoginNavigation { get; set; } = null!;
+    public virtual Currency? Currency { get; set; } 
 }
