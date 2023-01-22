@@ -612,3 +612,5 @@ C:\Users\basc1\source\repos\Def404\MyFinancesWebAPI\MyFinancesWebAPI\obj\Debug\n
 C:\Users\basc1\source\repos\Def404\MyFinancesWebAPI\MyFinancesWebAPI\obj\Debug\net6.0\ref\MyFinancesWebAPI.dll
 C:\Users\basc1\source\repos\Def404\MyFinancesWebAPI\MyFinancesWebAPI\obj\Debug\net6.0\MyFinancesWebAPI.pdb
 C:\Users\basc1\source\repos\Def404\MyFinancesWebAPI\MyFinancesWebAPI\obj\Debug\net6.0\MyFinancesWebAPI.genruntimeconfig.cache
+D:\Project\Def404(git)\MyFinancesWebAPI\MyFinancesWebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project\Def404(git)\MyFinancesWebAPI\MyFinancesWebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

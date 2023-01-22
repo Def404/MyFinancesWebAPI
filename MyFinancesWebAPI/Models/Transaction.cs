@@ -39,8 +39,6 @@ public partial class Transaction
     public virtual Loan? Loan { get; set; }
 
     public virtual LocalStorage? LocalStorage { get; set; }
-
-    public virtual User LoginNavigation { get; set; } = null!;
-
-    public virtual TransactionType TransactionType { get; set; } = null!;
+    
+    public virtual TransactionType? TransactionType { get; set; }
 }

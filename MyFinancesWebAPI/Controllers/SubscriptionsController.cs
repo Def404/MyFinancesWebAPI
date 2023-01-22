@@ -56,48 +56,15 @@ namespace MyFinancesWebAPI.Controllers
 			return subscription;
 		}
 
-		[HttpPut("PutStopSubscription")]
-		public async Task<IActionResult> PutStopSubscription(long id)
+		[HttpPut("PutSubscription")]
+		public async Task<IActionResult> PutSubscription(long id, Subscription subscription)
 		{
-			var sub = await _context.Subscriptions.FindAsync(id);
-
-			if (sub == null)
+			if (id != subscription.SubscriptionId)
 			{
-				return NotFound();
+				return BadRequest();
 			}
 			
-			sub.EndDate = DateOnly.FromDateTime(DateTime.Now);
-			_context.Entry(sub).State = EntityState.Modified;
-
-			try
-			{
-				await _context.SaveChangesAsync();
-			}
-			catch (DbUpdateConcurrencyException)
-			{
-				if (!SubscriptionExists(id))
-				{
-					return NotFound();
-				}
-				throw;
-			}
-
-			return NoContent();
-		}
-		
-		[HttpPut("PutRenewSubscription")]
-		public async Task<IActionResult> PutRenewSubscription(long id, DateOnly purchaseDate, DateOnly endDate)
-		{
-			var sub = await _context.Subscriptions.FindAsync(id);
-
-			if (sub == null)
-			{
-				return NotFound();
-			}
-
-			sub.PurchaseDate = purchaseDate;
-			sub.EndDate = endDate;
-			_context.Entry(sub).State = EntityState.Modified;
+			_context.Entry(subscription).State = EntityState.Modified;
 
 			try
 			{

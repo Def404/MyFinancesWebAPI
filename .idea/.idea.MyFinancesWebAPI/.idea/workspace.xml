@@ -5,18 +5,37 @@
     <projectFile profileName="MyFinancesWebAPI">MyFinancesWebAPI/MyFinancesWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="add and fix parameter">
+    <list default="true" id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MyFinancesWebAPI/AuthOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/UserLogin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/shelf/Uncommitted_changes_before_Update_at_20_01_2023_11_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/shelf/Uncommitted_changes_before_Update_at_20_01_2023_11_10__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFinancesWebAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DepositsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/DepositsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/SubscriptionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Controllers/SubscriptionsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Subscription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Subscription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Transaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Models/Transaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/MyFinancesWebAPI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/ref/MyFinancesWebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/refint/MyFinancesWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/Debug/net6.0/refint/MyFinancesWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/MyFinancesWebAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFinancesWebAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinancesWebAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +48,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b5f6452cae323eaef6649d6e168c9085e1614bbd6c1bfa74d7e1894bbc65c6/RelationalPropertyBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/27b91272f348469b8fccc471c1ccd767f57a64f55a44975790bfae805b4ebb/Future.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/365e7bc9bffff1bafa87f3989c799d3c7a4826916528d1c169b5d6835d78978/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3c62c261636549fc6eed4c26ac54fd6db1eae698ab5d36c8cb3c634288e3e2/InferParameterBindingInfoConvention.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/af868bac6c58325ff03249614748385445d70ce62882ef3b5c86f139ad923c2/ExpressionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Controllers/BankAccountsController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/CreditCard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/DesiredProduct.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/Loan.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Project/Def404(git)/MyFinancesWebAPI/MyFinancesWebAPI/Models/LocalStorage.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,21 +62,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "settings.editor.splitter.proportion": "0.20340091",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20340091&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MyFinancesWebAPI">
     <configuration name="MyFinancesWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyFinancesWebAPI/MyFinancesWebAPI.csproj" />
@@ -96,7 +112,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b291d801-0c85-4e11-bf2a-306b9cef4f6a" name="Changes" comment="" />
+      <changelist id="4b2440ed-91d5-4874-8297-ea8facb4555b" name="Changes" comment="" />
       <created>1674136059071</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -104,6 +120,7 @@
       <workItem from="1674136068509" duration="146000" />
       <workItem from="1674138314258" duration="1937000" />
       <workItem from="1674147319977" duration="3255000" />
+      <workItem from="1674379682873" duration="3802000" />
     </task>
     <task id="LOCAL-00001" summary="add deposit controller">
       <created>1674202980841</created>
@@ -161,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674207187869</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add subscription controller">
+      <created>1674208806764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674208806764</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix deposit controller">
+      <created>1674208829548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674208829548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +220,9 @@
     <MESSAGE value="add local storage classifier controller" />
     <MESSAGE value="add local storage controller" />
     <MESSAGE value="add and fix parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="add and fix parameter" />
+    <MESSAGE value="add subscription controller" />
+    <MESSAGE value="fix deposit controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix deposit controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
