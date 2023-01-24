@@ -25,33 +25,39 @@ namespace MyFinancesWebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult> Login([FromBody] UserLogin userLogin)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Login == userLogin.Login && u.Password == userLogin.Password);
+            User? user;
 
-            if (user != null)
+            await using (MyFinancesContext db = new MyFinancesContext())
             {
-                var securityKey = AuthOptions.GetSymmetricSecurityKey();
-                var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-                var claims = new[]{
-                    new Claim(ClaimTypes.NameIdentifier, user.Login),
-                    new Claim(ClaimTypes.Name, user.FirstName),
-                    new Claim(ClaimTypes.Surname, user.LastName),
-                    new Claim(ClaimTypes.Email, user.Email),
-                    new Claim(ClaimTypes.DateOfBirth, user.BirthDate.ToString()),
-                    new Claim(ClaimTypes.DateOfBirth, user.RegistrationDate.ToString())
-                };
-                
-                var token = new JwtSecurityToken(
-                    AuthOptions.ISSUER,
-                    AuthOptions.AUDIENCE,
-                    claims,
-                    expires: DateTime.Now.AddMinutes(15),
-                    signingCredentials: credentials);
-
-                return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+                user = db.Users
+                    .FromSqlRaw("SELECT * FROM users WHERE login = {0} AND password = crypt({1}, password)",
+                        userLogin.Login,
+                        userLogin.Password)
+                    .FirstOrDefault();
             }
 
-            return NotFound("User not found");
+            if (user == null)
+                return NotFound("User not found");
+
+            var securityKey = AuthOptions.GetSymmetricSecurityKey();
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            var claims = new[]{
+                new Claim(ClaimTypes.NameIdentifier, user.Login),
+                new Claim(ClaimTypes.Name, user.FirstName),
+                new Claim(ClaimTypes.Surname, user.LastName),
+                new Claim(ClaimTypes.Email, user.Email)
+            };
+                
+            var token = new JwtSecurityToken(
+                AuthOptions.ISSUER,
+                AuthOptions.AUDIENCE,
+                claims,
+                expires: DateTime.Now.AddMinutes(15),
+                signingCredentials: credentials);
+
+            return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+
         }
     }
 }
