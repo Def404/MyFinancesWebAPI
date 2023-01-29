@@ -37,26 +37,27 @@ namespace MyFinancesWebAPI.Controllers
             }
 
             if (user == null)
-                return NotFound("User not found");
+                return NotFound("Пользователь не найден");
 
             var securityKey = AuthOptions.GetSymmetricSecurityKey();
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var claims = new[]{
-                new Claim(ClaimTypes.NameIdentifier, user.Login),
-                new Claim(ClaimTypes.Name, user.FirstName),
-                new Claim(ClaimTypes.Surname, user.LastName),
-                new Claim(ClaimTypes.Email, user.Email)
+                new Claim(ClaimTypes.NameIdentifier, user.Login)
             };
                 
             var token = new JwtSecurityToken(
                 AuthOptions.ISSUER,
                 AuthOptions.AUDIENCE,
                 claims,
-                expires: DateTime.Now.AddMinutes(15),
+                expires: DateTime.Now.AddHours(12),
                 signingCredentials: credentials);
 
-            return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                expiration = token.ValidTo,
+            });
 
         }
     }

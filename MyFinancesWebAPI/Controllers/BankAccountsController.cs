@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyFinancesWebAPI.Contexts;
@@ -18,6 +20,7 @@ namespace MyFinancesWebAPI.Controllers
 
         // GET: api/BankAccounts
         [HttpGet("GetBankAccounts")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<BankAccount>>> GetBankAccounts(string login)
         {
             if (_context.BankAccounts == null)

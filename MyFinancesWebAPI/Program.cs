@@ -8,13 +8,22 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
 builder.Services.AddDbContext<MyFinancesContext>();
-builder.Services.AddAuthorization();
+builder.Services.AddSingleton(AuthOptions.GetSymmetricSecurityKey());
+builder.Services.AddControllers();
+//builder.Services.AddAuthorization();
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
-{
-	option.TokenValidationParameters = new TokenValidationParameters
+const string jwtSchemeName = "JwtBearer";
+
+builder.Services
+	.AddAuthentication(options =>
+	{
+		options.DefaultAuthenticateScheme = jwtSchemeName;
+		options.DefaultChallengeScheme = jwtSchemeName;
+	})
+	.AddJwtBearer(jwtSchemeName,jwtBearerOptions => 
+	{
+		jwtBearerOptions.TokenValidationParameters = new TokenValidationParameters
 	{
 		ValidateIssuer = true,
 		ValidIssuer = AuthOptions.ISSUER,
@@ -23,6 +32,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 		ValidateLifetime = true,
 		IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
 		ValidateIssuerSigningKey = true,
+		
+		ClockSkew = TimeSpan.FromSeconds(30)
 	};
 });
 
@@ -40,9 +51,14 @@ if (app.Environment.IsDevelopment()){
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseRouting();
 app.UseAuthentication();
+app.UseAuthorization();
 
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+	endpoints.MapControllers();
+});
+//app.MapControllers();
 
 app.Run();
